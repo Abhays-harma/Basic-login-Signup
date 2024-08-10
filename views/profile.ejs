@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <h1>Profile</h1>
+    <h2>Hello ❤️❤️❤️ <%=user.name%>,Feeling Good to see you Again!!!....</h2>
+    <h3>From the moment I met you, my life has been filled with nothing but joy and love. Every day with you feels like a beautiful dream that I never want to wake up from. You are my sunshine, my rock, and my everything.</h3>
+
+    <form class="addpost" action="/post" method="post">
+        <textarea name="content" placeholder="What's in your mind?" id=""></textarea>
+        <input type="submit" placeholder="Add Post">
+    </form>
+    <div class="post">
+        <h2>Your Posts</h2>
+        <div class="cards">
+            <%user.posts.forEach((post)=>{%>
+                <div class="container">
+                    <div class="name">@<%=user.name%></div>
+                    <div class="data"><%=post.content%></div>
+                    <div class="le">
+                        <a href="" class="like">Like</a>
+                        <a href="" class="edit">Edit</a>
+                    </div>
+                </div>
+            <%})%>
+        </div>
+    </div>
+</body>
+</html>

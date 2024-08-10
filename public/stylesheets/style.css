@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #212222;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    padding: 5px;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: yellowgreen;
+}
+
+h2 {
+    color: white;
+}
+
+form input {
+    border: none;
+    outline: none;
+    border: 1px solid white;
+    padding: 8px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: white;
+    background-color: black;
+}
+
+.button {
+    background-color: #24a0ed;
+    cursor: pointer;
+}
+
+.Login {
+    background-color: #24a0ed;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    gap: 20px;
+}
+
+textarea {
+    resize: none;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-weight: bolder;
+    border: none;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.addpost {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.addpost input {
+    width: fit-content;
+    padding: 10px;
+    position: absolute;
+    right: 85%;
+    top: 55%;
+    background-color: #24a0ed;
+}
+.post{
+    padding-top: 50px;
+    color: white;
+    padding-left: 10px;
+    
+}
+.container{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.name{
+    background-color: black;
+    color: #24a0ed;
+}
+.le{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+}
+.like{
+    background-color: #24a0ed;
+    padding: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+}
+.edit{
+    background-color: #24a0ed;
+    padding: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+}
+.data{
+    background-color: black;
+}

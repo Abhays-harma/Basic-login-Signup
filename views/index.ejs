@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <h1>Login Form</h1>
+
+    <div class="flex">
+        <form action="/register" method="post">
+            <input type="text" name="username" value="" placeholder="Enter your UserName" id="">
+            <input type="text" name="name" value="" placeholder="Enter your Name" id="">
+            <input type="number" name="age" value="" placeholder="Enter your age" id="">
+            <input type="email" name="email" value="" placeholder="Enter your email" id="">
+            <input type="password" name="password" value="" placeholder="Enter your password" id="">
+            <input class="button" type="submit" value="Sign Up">
+        </form>
+        <form class="login" action="/login" method="get">
+            <input class="Login" type="submit" value="Log in">
+        </form>
+    </div>
+</body>
+</html>
